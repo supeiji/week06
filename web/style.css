@@ -1,0 +1,105 @@
+.fee-box {
+  background: #2d3e50;
+  color: #fff;
+  padding: 18px 24px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 24px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+}
+.card-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: stretch;
+}
+.card-row .custom-card {
+  flex: 1 1 0;
+  min-width: 280px;
+  max-width: 420px;
+}
+@media (max-width: 900px) {
+  .card-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.custom-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(44,62,80,0.10);
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.2s;
+  padding: 18px 16px;
+}
+.custom-card:hover {
+  box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+  border-color: #b0c4de;
+}
+body {
+    font-family: 'Segoe UI', '微軟正黑體', Arial, sans-serif;
+    background: #f7f7fa;
+    margin: 0;
+    padding: 0;
+}
+nav {
+  background: #2d3e50;
+  padding: 16px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd700;
+}
+h1 {
+    color: #2d3e50;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.2em;
+}
+p {
+    color: #555;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 18px;
+}
+#mainNav .nav-link.active{
+  color: #0acf80;
+}
+
+.navbar-nav.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+.navbar-nav.flex-row .nav-item {
+  display: inline-block;
+}
+.custom-bg {
+  background-color: #204080 !important;
+  color: #fff !important;
+}
+.custom-bg .navbar-nav .nav-link,
+.custom-bg .navbar-brand,
+.custom-bg .navbar-toggler {
+  color: #fff !important;
+}
+.custom-bg .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #204080 !important;
+  background: #fff !important;
+}
+.custom-bg {
+  background-color: #204080 !important;
+  color: #fff !important;
+}
